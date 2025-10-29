@@ -90,6 +90,9 @@ ninja.data = [{
           section: "News",},{id: "news-yixiong-yang-has-presented-our-work-nerf-multi-light-intrinsic-aware-neural-radiance-fields-on-the-3d-vision-conference-in-singapore",
           title: 'Yixiong Yang has presented our work NeRF: Multi-Light Intrinsic-Aware Neural Radiance Fields on...',
           description: "",
+          section: "News",},{id: "news-maria-david-danna-alex-and-javier-have-presented-their-works-at-cvpr-2025",
+          title: 'Maria, David, Danna, Alex, and Javier have presented their works at CVPR 2025....',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
