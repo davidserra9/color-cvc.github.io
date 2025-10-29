@@ -93,7 +93,7 @@ ninja.data = [{
           section: "News",},{id: "news-maria-david-danna-alex-and-javier-have-presented-their-works-at-cvpr-2025",
           title: 'Maria, David, Danna, Alex, and Javier have presented their works at CVPR 2025....',
           description: "",
-          section: "News",},{id: "news-one-paper-has-been-accepted-to-iccv-2025-in-hawaii-and-one-paper-has-been-accepted-to-the-33rd-color-imaging-conference-in-hong-kong-david-serrano-will-attend-iccv-while-guillem-arias-and-maria-vanrell-will-attend-cic-see-you-there",
+          section: "News",},{id: "news-one-paper-has-been-accepted-to-iccv-2025-in-hawaii-and-one-paper-has-been-accepted-to-the-33rd-color-imaging-conference-david-serrano-will-attend-iccv-while-guillem-arias-and-maria-vanrell-will-attend-cic-see-you-there",
           title: 'One paper has been accepted to ICCV 2025 in Hawaii and one paper...',
           description: "",
           section: "News",},{id: "news-javier-has-been-awarded-a-leonardo-grant-from-the-bbva-foundation-congratulations",
