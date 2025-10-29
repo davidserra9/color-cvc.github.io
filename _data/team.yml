@@ -57,6 +57,7 @@ current:
   - first_name: Youchen
     last_name: Liu
     position: Visiting Student
+    image: youchen_liu.jpeg
 
   - first_name: Héctor
     last_name: Salguero
