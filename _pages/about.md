@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: About
-subtitle: <a href='https://www.cvc.uab.es/'>Computer Vision Center</a>, <a href='https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html'>Universitat Autònoma de Barcelona,</a> Spain.
+subtitle: <a href='https://www.cvc.uab.es/'>Computer Vision Center</a>, <a href='https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html'>Universitat Autònoma de Barcelona</a>.
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
