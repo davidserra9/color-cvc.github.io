@@ -813,9 +813,14 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.4;
       }
 
       .author {
+        font-size: 0.95rem;
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
