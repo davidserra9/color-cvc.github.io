@@ -71,16 +71,16 @@ current:
 phd_alumni:
   - first_name: Danna
     last_name: Xue
-    position: PhD 
-    year: 2024
+    position: PhD
+    year: "2022-2024"
     thesis_title: On Considering Semantics for Multi-image Processing
     moved_to: Postdoc in our group!
     personal_website: https://dxue321.github.io/
 
   - first_name: Yixiong
     last_name: Yang
-    position: PhD 
-    year: 2024
+    position: PhD
+    year: "2019-2024"
     thesis_title: Understanding and Editing Light in Images
     moved_to: Postdoc at Harbin Institute of Technology (Shenzhen, China)
 
@@ -159,26 +159,26 @@ phd_alumni:
 other_alumni:
   - first_name: Maria
     last_name: Pilligua
-    position: Undergrad intern 
-    year: 2022-2025
+    position: Undergrad intern
+    year: "2022-2025"
     moved_to: MSc at EPFL
     personal_website: https://mpilligua.github.io/
 
   - first_name: Josep M.
     last_name: Rocafort
-    position: Undergrad intern 
-    year: 2024-2025
+    position: Undergrad intern
+    year: "2024-2025"
 
   - first_name: Abril
     last_name: Piñol
     position: MSc intern
     moved_to: Phd in our group!
-    year: 2024-2025
+    year: "2024-2025"
 
   - first_name: Adrián
     last_name: García
     position: Undergrad intern
-    year: 2024-2025
+    year: "2024-2025"
     moved_to: MSc at École Polytechnique
 
   - first_name: Pai
