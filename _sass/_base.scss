@@ -790,6 +790,27 @@ footer.sticky-bottom {
         }
       }
 
+      .periodical {
+        abbr.badge {
+          display: inline-block;
+          background-color: var(--global-theme-color);
+          color: var(--global-card-bg-color) !important;
+          padding: 0.25rem 0.5rem;
+          margin-right: 0.5rem;
+          font-size: 0.85rem;
+          font-weight: 600;
+          border-radius: 0.25rem;
+
+          a {
+            color: white;
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
       .title {
         font-weight: bolder;
       }
