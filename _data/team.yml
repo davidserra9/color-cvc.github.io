@@ -91,9 +91,9 @@ phd_alumni:
 
   - first_name: Hassan A.
     last_name: Sial
-    position: PhD 
+    position: PhD
     year: 2021
-    thesis_title: Estimating Light Effects from a Single Image: Deep Architectures and Ground-Truth Generation
+    thesis_title: "Estimating Light Effects from a Single Image: Deep Architectures and Ground-Truth Generation"
     moved_to: Data Scientist at Roche
     personal_website: https://www.linkedin.com/in/hasial/
 
@@ -123,10 +123,10 @@ phd_alumni:
 
   - first_name: Naila
     last_name: Murray
-    position: PhD 
+    position: PhD
     year: 2012
-    thesis_title: Predicting Saliency and Aesthetics in Images: A Bottom-up Perspective
-    moved_to: Director, AI Research at Meta 
+    thesis_title: "Predicting Saliency and Aesthetics in Images: A Bottom-up Perspective"
+    moved_to: Director, AI Research at Meta
     personal_website: https://www.linkedin.com/in/naila-murray-8a5b9a7/
 
   - first_name: Javier
