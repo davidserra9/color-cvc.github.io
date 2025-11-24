@@ -7,3 +7,97 @@
 
 "Vision":
   color: "#009f36"
+
+# Computer Vision Conferences
+"CVPR":
+  full_name: "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+  url: https://cvpr.thecvf.com/
+  color: "#8B0000"
+
+"ICCV":
+  full_name: "IEEE/CVF International Conference on Computer Vision"
+  url: https://iccv.thecvf.com/
+  color: "#8B0000"
+
+"ECCV":
+  full_name: "European Conference on Computer Vision"
+  url: https://eccv.ecva.net/
+  color: "#00008B"
+
+"WACV":
+  full_name: "IEEE Winter Conference on Applications of Computer Vision"
+  url: https://wacv.thecvf.com/
+  color: "#8B0000"
+
+"3DV":
+  full_name: "International Conference on 3D Vision"
+  url: https://3dv.org/
+  color: "#4B0082"
+
+# AI Conferences
+"AAAI":
+  full_name: "AAAI Conference on Artificial Intelligence"
+  url: https://aaai.org/
+  color: "#FF6347"
+
+"NeurIPS":
+  full_name: "Conference on Neural Information Processing Systems"
+  url: https://neurips.cc/
+  color: "#FF6347"
+
+"ICLR":
+  full_name: "International Conference on Learning Representations"
+  url: https://iclr.cc/
+  color: "#FF6347"
+
+# Signal Processing Conferences
+"ICASSP":
+  full_name: "IEEE International Conference on Acoustics, Speech and Signal Processing"
+  url: https://www.ieee.org/
+  color: "#006400"
+
+# Journals
+"TIP":
+  full_name: "IEEE Transactions on Image Processing"
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83
+  color: "#2F4F4F"
+
+"TMM":
+  full_name: "IEEE Transactions on Multimedia"
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046
+  color: "#2F4F4F"
+
+"TPAMI":
+  full_name: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34
+  color: "#2F4F4F"
+
+"IJCV":
+  full_name: "International Journal of Computer Vision"
+  url: https://www.springer.com/journal/11263
+  color: "#483D8B"
+
+"PR":
+  full_name: "Pattern Recognition"
+  url: https://www.sciencedirect.com/journal/pattern-recognition
+  color: "#556B2F"
+
+"PRL":
+  full_name: "Pattern Recognition Letters"
+  url: https://www.sciencedirect.com/journal/pattern-recognition-letters
+  color: "#556B2F"
+
+"SPL":
+  full_name: "IEEE Signal Processing Letters"
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97
+  color: "#2F4F4F"
+
+"CGF":
+  full_name: "Computer Graphics Forum"
+  url: https://onlinelibrary.wiley.com/journal/14678659
+  color: "#8B4513"
+
+"JOV":
+  full_name: "Journal of Vision"
+  url: https://jov.arvojournals.org/
+  color: "#191970"
