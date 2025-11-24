@@ -45,7 +45,7 @@ current:
 
   - first_name: Abril
     last_name: Piñol
-    position: MSc Student
+    position: PhD Student
     image: abril_pinol.jpg
 
   - first_name: Luca
@@ -73,19 +73,21 @@ phd_alumni:
     last_name: Xue
     position: PhD 
     year: 2022-2024
-    moved_to: Postdoc at our group!
+    thesis_title: On Considering Semantics for Multi-image Processing
+    moved_to: Postdoc in our group!
     personal_website: https://dxue321.github.io/
 
   - first_name: Yixiong
     last_name: Yang
     position: PhD 
     year: 2019-2024
-    moved_to: Postdoc at X
+    thesis_title: Understanding and Editing Light in Images
+    moved_to: Postdoc at Harbin Institute of Technology (Shenzhen, China)
 
 other_alumni:
   - first_name: Maria
     last_name: Pilligua
-    position: Undergrad itern 
+    position: Undergrad intern 
     year: 2022-2025
     moved_to: MSc at EPFL
     personal_website: https://mpilligua.github.io/
@@ -98,10 +100,17 @@ other_alumni:
   - first_name: Abril
     last_name: Piñol
     position: MSc intern
+    moved_to: Phd in our group!
     year: 2024-2025
 
   - first_name: Adrián
     last_name: García
-    position: Undergraduate intern
+    position: Undergrad intern
     year: 2024-2025
     moved_to: MSc at École Polytechnique
+
+  - first_name: Pai
+    last_name: Peng
+    position: Undergrad intern
+    year: 2022
+    moved_to: MSc at CMU
