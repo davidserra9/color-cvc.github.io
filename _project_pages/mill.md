@@ -57,11 +57,27 @@ date: 2025-11-25
   </div>
 </div>
 
-<!-- Dataset Overview (Optional) -->
+<!-- Dataset Overview -->
 <div class="method" style="margin-top: 3rem;">
   <h2>MILL Dataset</h2>
   <p>
-    
+    Existing low-light image enhancement (LLIE) datasets have two critical limitations: they either contain a single severely underexposed image per scene or simulate brightness variations through camera parameter adjustments. This constraint limits real-world applicability, where low-light conditions span a continuous range of intensities. Our experiments show that models trained on fixed brightness levels fail to generalize across different intensities, producing artifacts like oversaturation when tested on intermediate brightness levels.
+  </p>
+  <p>
+    To address this limitation, we introduce the <strong>Multi-Illumination Low-Light (MILL)</strong> dataset featuring multiple brightness levels per scene with fixed camera parameters. All images were captured in a controlled indoor environment with programmable lighting to precisely control brightness levels. We used a Nikon D5200 DSLR camera and a Samsung Galaxy S7 smartphone, enabling evaluation across different sensor characteristics.
+  </p>
+  <p>
+    <strong>Dataset Composition:</strong> We captured 50 scenes across 11 intensity levels (Levels 1-10 plus ground truth), totaling 1,100 images. The dataset includes 6 different backgrounds and 98 unique objects, with no overlap between train/validation and test sets. The split comprises 30 training scenes, 12 validation scenes, and 8 test scenes.
+  </p>
+  <p>
+    <strong>Available Versions:</strong>
+  </p>
+  <ul>
+    <li><strong>MILL-s (small):</strong> All images resized to 600×400 pixels for methods with computational constraints</li>
+    <li><strong>MILL-f (full):</strong> DSLR images divided into 9 non-overlapping 2012×1340 patches (Full-HD resolution), expanding to 5,500 images; smartphone images at original 1560×1040 resolution</li>
+  </ul>
+  <p>
+    All images were captured in RAW format and processed using Camera RAW, ensuring high-quality, well-calibrated data for robust training and evaluation of LLIE methods across varying illumination conditions.
   </p>
 </div>
 
