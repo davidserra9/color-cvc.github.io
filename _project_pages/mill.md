@@ -19,16 +19,16 @@ date: 2025-11-25
   <div class="author-block">
     <strong>Maria Pilligua</strong><sup>1,2</sup>,
     <strong>David Serrano-Lozano</strong><sup>1,2</sup>,
-    <strong>Pai Peng</strong><sup>3</sup>
-    <strong>Ramon Baldrich</strong><sup>1,2</sup>
-    <strong>Michael S. Brown</strong><sup>4</sup>
+    <strong>Pai Peng</strong><sup>3</sup>,
+    <strong>Ramon Baldrich</strong><sup>1,2</sup>,
+    <strong>Michael S. Brown</strong><sup>4</sup>, and
     <strong>Javier Vazquez-Corral</strong><sup>1,2</sup>
 
   </div>
   <div class="affiliations">
-    <sup>1</sup>Computer Vision Center<br>
-    <sup>2</sup>Universitat Autònoma de Barcelona<br>
-    <sup>3</sup>University of Wisconsin-Madison<br>
+    <sup>1</sup>Computer Vision Center, 
+    <sup>2</sup>Universitat Autònoma de Barcelona, 
+    <sup>3</sup>University of Wisconsin-Madison, 
     <sup>4</sup>York University
   </div>
 </div>
@@ -44,17 +44,13 @@ date: 2025-11-25
 <div class="teaser">
   <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-      {% comment %}
-      Uncomment when teaser image is available:
-      {% include figure.liquid loading="eager" path="assets/img/projects/mill/teaser.jpg" title="MILL Teaser" class="img-fluid rounded z-depth-1" %}
-      {% endcomment %}
       <p style="text-align: center; color: #999; padding: 3rem; background: #f5f5f5; border-radius: 8px;">
         [Teaser image placeholder - Add your teaser image at assets/img/projects/mill/teaser.jpg]
       </p>
     </div>
   </div>
   <div class="caption" style="margin-top: 1rem;">
-    Visual overview of the MILL approach for multi-illuminant learning.
+    Visual overview of the MILL dataset for low-light image enhancement.
   </div>
 </div>
 
