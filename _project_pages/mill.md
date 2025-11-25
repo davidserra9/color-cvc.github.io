@@ -15,7 +15,7 @@ date: 2025-11-25
   <div class="author-block">
     <strong>Maria Pilligua</strong><sup>1,2</sup>,
     <strong>David Serrano-Lozano</strong><sup>1,2</sup>,
-    <strong>Pai Peng</strong><sup>3</sup>,<\br>
+    <strong>Pai Peng</strong><sup>3</sup>,<br>
     <strong>Ramon Baldrich</strong><sup>1,2</sup>,
     <strong>Michael S. Brown</strong><sup>4</sup>, and
     <strong>Javier Vazquez-Corral</strong><sup>1,2</sup>
@@ -97,9 +97,9 @@ date: 2025-11-25
   <h2>Citation</h2>
   <p>If you find this work useful for your research, please cite:</p>
   <pre style="background-color: #f5f5f5; padding: 1rem; border-radius: 5px; overflow-x: auto;">
-<code>@article{mill2025,
-  title={Multi-Illuminant Learning for Lighting-Invariant Image Matching},
-  author={[Author List]},
+<code>@article{pilligua2025evaluating,
+  title={Evaluating Low-Light Image Enhancement Across Multiple Intensity Levels},
+  author={Pilligua, Maria and Serrano-Lozano, David and Peng, Pai and Baldrich, Ramon and Brown, Michael S and Vazquez-Corral, Javier},
   journal={arXiv preprint arXiv:2511.15496},
   year={2025}
 }</code></pre>
