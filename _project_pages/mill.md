@@ -109,7 +109,7 @@ date: 2025-11-25
 <div class="acknowledgments" style="margin-top: 3rem;">
   <h2>Acknowledgments</h2>
   <p>
-    [Optional: Add funding acknowledgments, collaborators, etc.]
+    This work was supported by Grants PID2021-128178OB-I00 and PID2024-162555OB-I00 funded by MCIN/AEI/10.13039/ 501100011033 and by ERDF "A way of making Europe", and by the Generalitat de Catalunya CERCA Program. DSL also acknowledges the FPI grant from Spanish Ministry of Science and Innovation (PRE2022-101525). JVC also acknowledges the 2025 Leonardo Grant for Scientific Research and Cultural Creation from the BBVA Foundation. The BBVA Foundation accepts no responsibility for the opinions, statements and contents included in the project and/or the results thereof, which are entirely the responsibility of the authors. This research was also supported by the Natural Sciences and Engineering Research Council of Canada (NSERC) and the Canada Research Chairs (CRC) program.
   </p>
 </div>
 
