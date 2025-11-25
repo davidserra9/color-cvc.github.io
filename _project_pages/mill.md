@@ -2,13 +2,18 @@
 layout: page
 title: "Evaluating Low-Light Image Enhancement Across Multiple Intensity Levels"
 permalink: /mill/
-img: assets/img/projects/mill/teaser.jpg
+img: assets/img/mill/teaser.jpg
 paper: https://arxiv.org/abs/2511.15496
 code:
 date: 2025-11-25
 ---
 
 <div class="project-page">
+
+<!-- Title -->
+<h2 class="project-title" style="text-align: center; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 1.5rem; font-weight: 500; margin-bottom: 1.5rem;">
+  {{ page.title }}
+</h2>
 
 <!-- Authors and Institutions -->
 <div class="authors">
@@ -49,9 +54,7 @@ date: 2025-11-25
 <div class="teaser">
   <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-      <p style="text-align: center; color: #999; padding: 3rem; background: #f5f5f5; border-radius: 8px;">
-        [Teaser image placeholder - Add your teaser image at assets/img/projects/mill/teaser.jpg]
-      </p>
+      {% include figure.liquid loading="eager" path="assets/img/mill/teaser.jpg" title="MILL Teaser" class="img-fluid rounded z-depth-1" %}
     </div>
   </div>
   <div class="caption" style="margin-top: 1rem;">
