@@ -126,29 +126,30 @@ date: 2025-11-25
 
 <script>
 // Carousel configuration
-const totalScenes = 2; // Update this as you add more scenes
+const sceneNumbers = [1, 12]; // Add more scene numbers as needed
 const totalLevels = 11; // Levels 0-10
-let currentScene = 1;
+let currentSceneIndex = 0;
 let currentLevel = 0;
 
 // Update image source
 function updateImage() {
-  const imagePath = `{{ site.baseurl }}/assets/img/mill/Scene${currentScene}_${currentLevel}.jpg`;
+  const sceneNum = sceneNumbers[currentSceneIndex];
+  const imagePath = `{{ site.baseurl }}/assets/img/mill/Scene${sceneNum}_${currentLevel}.jpg`;
   document.getElementById('carousel-image').src = imagePath;
-  document.getElementById('carousel-scene-name').textContent = `Scene ${currentScene}`;
+  document.getElementById('carousel-scene-name').textContent = `Scene ${sceneNum}`;
   document.getElementById('carousel-level-name').textContent = currentLevel === 10 ? 'Ground Truth' : `Level ${currentLevel}`;
-  document.getElementById('scene-counter').textContent = `Scene ${currentScene} of ${totalScenes}`;
+  document.getElementById('scene-counter').textContent = `Scene ${currentSceneIndex + 1} of ${sceneNumbers.length}`;
   document.getElementById('level-value').textContent = currentLevel;
 }
 
 // Event listeners
 document.getElementById('prev-scene').addEventListener('click', () => {
-  currentScene = currentScene > 1 ? currentScene - 1 : totalScenes;
+  currentSceneIndex = currentSceneIndex > 0 ? currentSceneIndex - 1 : sceneNumbers.length - 1;
   updateImage();
 });
 
 document.getElementById('next-scene').addEventListener('click', () => {
-  currentScene = currentScene < totalScenes ? currentScene + 1 : 1;
+  currentSceneIndex = currentSceneIndex < sceneNumbers.length - 1 ? currentSceneIndex + 1 : 0;
   updateImage();
 });
 
