@@ -134,7 +134,7 @@ let currentLevel = 0;
 // Update image source
 function updateImage() {
   const sceneNum = sceneNumbers[currentSceneIndex];
-  const imagePath = `{{ site.baseurl }}/assets/img/mill/Scene${sceneNum}_${currentLevel}.jpg`;
+  const imagePath = `{{ site.baseurl }}/assets/img/mill/Scene${sceneNum}_${currentLevel}.png`;
   document.getElementById('carousel-image').src = imagePath;
   document.getElementById('carousel-scene-name').textContent = `Scene ${sceneNum}`;
   document.getElementById('carousel-level-name').textContent = currentLevel === 10 ? 'Ground Truth' : `Level ${currentLevel}`;
