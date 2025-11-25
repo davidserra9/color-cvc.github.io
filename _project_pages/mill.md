@@ -15,7 +15,7 @@ date: 2025-11-25
   <div class="author-block">
     <strong>Maria Pilligua</strong><sup>1,2</sup>,
     <strong>David Serrano-Lozano</strong><sup>1,2</sup>,
-    <strong>Pai Peng</strong><sup>3</sup>,
+    <strong>Pai Peng</strong><sup>3</sup>,<\br>
     <strong>Ramon Baldrich</strong><sup>1,2</sup>,
     <strong>Michael S. Brown</strong><sup>4</sup>, and
     <strong>Javier Vazquez-Corral</strong><sup>1,2</sup>
