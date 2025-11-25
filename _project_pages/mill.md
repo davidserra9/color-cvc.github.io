@@ -91,10 +91,10 @@ date: 2025-11-25
   <div class="carousel-container">
     <!-- Image Display -->
     <div class="carousel-image-wrapper">
-      <img id="carousel-image" src="" alt="MILL Dataset Example" class="img-fluid rounded z-depth-1" style="width: 100%; max-height: 500px; object-fit: contain;">
+      <img id="carousel-image" src="" alt="MILL Dataset Example" class="img-fluid rounded z-depth-1" style="width: 100%; max-height: 350px; object-fit: contain;">
       <div class="carousel-info" style="text-align: center; margin-top: 1rem; font-size: 0.95rem; color: #666;">
         <span id="carousel-scene-name">Scene 1</span> -
-        <span id="carousel-level-name">Level 0</span>
+        <span id="carousel-level-name">Level 1</span>
       </div>
     </div>
 
@@ -112,13 +112,13 @@ date: 2025-11-25
     <!-- Level Slider -->
     <div class="level-slider" style="margin: 2rem auto; max-width: 600px;">
       <label for="level-slider" style="display: block; text-align: center; margin-bottom: 0.5rem; font-weight: 500;">
-        Illumination Level: <span id="level-value">0</span>
+        Illumination Level: <span id="level-value">1</span>
       </label>
-      <input type="range" id="level-slider" min="0" max="10" value="0"
+      <input type="range" id="level-slider" min="1" max="11" value="1"
              style="width: 100%; cursor: pointer;">
       <div style="display: flex; justify-content: space-between; font-size: 0.85rem; color: #999; margin-top: 0.5rem;">
-        <span>Darkest (0)</span>
-        <span>Ground Truth (10)</span>
+        <span>Darkest (1)</span>
+        <span>Ground Truth (11)</span>
       </div>
     </div>
   </div>
@@ -127,9 +127,9 @@ date: 2025-11-25
 <script>
 // Carousel configuration
 const sceneNumbers = [1, 12]; // Add more scene numbers as needed
-const totalLevels = 11; // Levels 0-10
+const totalLevels = 11; // Levels 1-11
 let currentSceneIndex = 0;
-let currentLevel = 0;
+let currentLevel = 1;
 
 // Update image source
 function updateImage() {
@@ -137,7 +137,7 @@ function updateImage() {
   const imagePath = `{{ site.baseurl }}/assets/img/mill/Scene${sceneNum}_${currentLevel}.png`;
   document.getElementById('carousel-image').src = imagePath;
   document.getElementById('carousel-scene-name').textContent = `Scene ${sceneNum}`;
-  document.getElementById('carousel-level-name').textContent = currentLevel === 10 ? 'Ground Truth' : `Level ${currentLevel}`;
+  document.getElementById('carousel-level-name').textContent = currentLevel === 11 ? 'Ground Truth' : `Level ${currentLevel}`;
   document.getElementById('scene-counter').textContent = `Scene ${currentSceneIndex + 1} of ${sceneNumbers.length}`;
   document.getElementById('level-value').textContent = currentLevel;
 }
