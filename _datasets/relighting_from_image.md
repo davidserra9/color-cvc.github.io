@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ISR and RSR
-description: Relighting from a Single Image. Datasets and Deep Intrinsic-based Architecture
+description: Relighting from a Single Image. Datasets and Deep Intrinsic-based Architecture, IEEE TMM 2025
 img: assets/img/datasets/relighting-single-image/teaser.gif
 importance: 1
 category: work
