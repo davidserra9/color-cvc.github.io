@@ -35,13 +35,10 @@ date: 2025-11-25
     <i class="fa-solid fa-file-pdf"></i> Paper
   </a>
   <a href="#" class="btn z-depth-0" role="button">
-    <i class="fa-brands fa-github"></i> Code
+    <i class="fa-brands fa-github"></i> Code (soon)
   </a>
   <a href="#" class="btn z-depth-0" role="button">
-    <i class="fa-solid fa-database"></i> Dataset
-  </a>
-  <a href="#citation" class="btn z-depth-0" role="button">
-    <i class="fa-solid fa-quote-left"></i> Citation
+    <i class="fa-solid fa-database"></i> Dataset (soon)
   </a>
 </div>
 
