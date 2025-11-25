@@ -10,11 +10,6 @@ date: 2025-11-25
 
 <div class="project-page">
 
-<!-- Title -->
-<h2 class="project-title" style="text-align: center; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 1.5rem; font-weight: 500; margin-bottom: 1.5rem;">
-  {{ page.title }}
-</h2>
-
 <!-- Authors and Institutions -->
 <div class="authors">
   <div class="author-block">
