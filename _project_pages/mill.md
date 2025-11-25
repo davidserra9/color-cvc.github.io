@@ -1,15 +1,13 @@
 ---
 layout: page
-title: MILL
-description: Multi-Illuminant Learning for Lighting-Invariant Image Matching
+title: Evaluating Low-Light Image Enhancement Across Multiple Intensity Levels
+description: ArXiv'25
 permalink: /mill/
 img:
 paper: https://arxiv.org/abs/2511.15496
-code:
-date: 2025-11-01
+code: 
+date: 2025-11-25
 ---
-
-## Multi-Illuminant Learning for Lighting-Invariant Image Matching
 
 ### Abstract
 
