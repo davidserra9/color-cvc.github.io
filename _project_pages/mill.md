@@ -121,6 +121,13 @@ date: 2025-11-25
   margin: 0 auto;
 }
 
+/* Override title styling */
+.post-title, .page-heading, h1.post-title {
+  font-family: 'Helvetica Neue', Arial, sans-serif !important;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+}
+
 .authors {
   text-align: center;
   margin-bottom: 2rem;
