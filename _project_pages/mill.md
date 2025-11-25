@@ -81,6 +81,86 @@ date: 2025-11-25
   </p>
 </div>
 
+<!-- Dataset Examples Carousel -->
+<div class="dataset-examples" style="margin-top: 3rem;">
+  <h2>Dataset Examples</h2>
+  <p style="margin-bottom: 1.5rem;">
+    Explore example scenes at different illumination levels. Use the slider to adjust the brightness level and navigate between scenes.
+  </p>
+
+  <div class="carousel-container">
+    <!-- Image Display -->
+    <div class="carousel-image-wrapper">
+      <img id="carousel-image" src="" alt="MILL Dataset Example" class="img-fluid rounded z-depth-1" style="width: 100%; max-height: 500px; object-fit: contain;">
+      <div class="carousel-info" style="text-align: center; margin-top: 1rem; font-size: 0.95rem; color: #666;">
+        <span id="carousel-scene-name">Scene 1</span> -
+        <span id="carousel-level-name">Level 0</span>
+      </div>
+    </div>
+
+    <!-- Scene Navigation -->
+    <div class="scene-navigation" style="text-align: center; margin: 1.5rem 0;">
+      <button id="prev-scene" class="btn btn-sm z-depth-0" style="margin: 0 0.5rem;">
+        <i class="fas fa-chevron-left"></i> Previous Scene
+      </button>
+      <span id="scene-counter" style="margin: 0 1rem; font-weight: 500;">Scene 1 of 2</span>
+      <button id="next-scene" class="btn btn-sm z-depth-0" style="margin: 0 0.5rem;">
+        Next Scene <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <!-- Level Slider -->
+    <div class="level-slider" style="margin: 2rem auto; max-width: 600px;">
+      <label for="level-slider" style="display: block; text-align: center; margin-bottom: 0.5rem; font-weight: 500;">
+        Illumination Level: <span id="level-value">0</span>
+      </label>
+      <input type="range" id="level-slider" min="0" max="10" value="0"
+             style="width: 100%; cursor: pointer;">
+      <div style="display: flex; justify-content: space-between; font-size: 0.85rem; color: #999; margin-top: 0.5rem;">
+        <span>Darkest (0)</span>
+        <span>Ground Truth (10)</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Carousel configuration
+const totalScenes = 2; // Update this as you add more scenes
+const totalLevels = 11; // Levels 0-10
+let currentScene = 1;
+let currentLevel = 0;
+
+// Update image source
+function updateImage() {
+  const imagePath = `{{ site.baseurl }}/assets/img/mill/Scene${currentScene}_${currentLevel}.jpg`;
+  document.getElementById('carousel-image').src = imagePath;
+  document.getElementById('carousel-scene-name').textContent = `Scene ${currentScene}`;
+  document.getElementById('carousel-level-name').textContent = currentLevel === 10 ? 'Ground Truth' : `Level ${currentLevel}`;
+  document.getElementById('scene-counter').textContent = `Scene ${currentScene} of ${totalScenes}`;
+  document.getElementById('level-value').textContent = currentLevel;
+}
+
+// Event listeners
+document.getElementById('prev-scene').addEventListener('click', () => {
+  currentScene = currentScene > 1 ? currentScene - 1 : totalScenes;
+  updateImage();
+});
+
+document.getElementById('next-scene').addEventListener('click', () => {
+  currentScene = currentScene < totalScenes ? currentScene + 1 : 1;
+  updateImage();
+});
+
+document.getElementById('level-slider').addEventListener('input', (e) => {
+  currentLevel = parseInt(e.target.value);
+  updateImage();
+});
+
+// Initialize
+updateImage();
+</script>
+
 <!-- Abstract -->
 <div class="abstract" style="margin-top: 3rem;">
   <h2>Abstract</h2>
