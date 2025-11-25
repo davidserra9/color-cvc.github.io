@@ -48,6 +48,11 @@ current:
     position: PhD Student
     image: abril_pinol.jpg
 
+  - first_name: Alexandra
+    last_name: Gomez-Villa
+    position: Collaborator
+    image: alex_gomez.jpeg
+
   - first_name: Luca
     last_name: Cogo
     position: Visiting Student
