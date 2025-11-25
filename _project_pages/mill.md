@@ -2,7 +2,6 @@
 layout: page
 title: "Evaluating Low-Light Image Enhancement Across Multiple Intensity Levels"
 permalink: /mill/
-description: ArXiv'25
 img: assets/img/projects/mill/teaser.jpg
 paper: https://arxiv.org/abs/2511.15496
 code:
@@ -10,9 +9,6 @@ date: 2025-11-25
 ---
 
 <div class="project-page">
-
-<!-- Title -->
-<h1 class="project-title">{{ page.title }}</h1>
 
 <!-- Authors and Institutions -->
 <div class="authors">
@@ -35,8 +31,17 @@ date: 2025-11-25
 
 <!-- Buttons -->
 <div class="links" style="text-align: center; margin: 2rem 0;">
-  <a href="https://arxiv.org/abs/2511.15496" class="btn btn-sm z-depth-0" role="button" target="_blank">
+  <a href="https://arxiv.org/abs/2511.15496" class="btn z-depth-0" role="button" target="_blank">
     <i class="fa-solid fa-file-pdf"></i> Paper
+  </a>
+  <a href="#" class="btn z-depth-0" role="button">
+    <i class="fa-brands fa-github"></i> Code
+  </a>
+  <a href="#" class="btn z-depth-0" role="button">
+    <i class="fa-solid fa-database"></i> Dataset
+  </a>
+  <a href="#citation" class="btn z-depth-0" role="button">
+    <i class="fa-solid fa-quote-left"></i> Citation
   </a>
 </div>
 
@@ -118,16 +123,10 @@ date: 2025-11-25
   margin: 0 auto;
 }
 
-.project-title {
-  text-align: center;
-  margin-bottom: 2rem;
-  font-size: 2rem;
-  line-height: 1.3;
-}
-
 .authors {
   text-align: center;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .author-block {
@@ -141,7 +140,9 @@ date: 2025-11-25
   line-height: 1.6;
 }
 
-.links a.btn {
-  margin: 0.25rem;
+.project-page .links a.btn {
+  margin: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
 }
 </style>
