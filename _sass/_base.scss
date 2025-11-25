@@ -762,6 +762,12 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--global-divider-color, #e0e0e0);
+
+      &:last-child {
+        border-bottom: none;
+      }
 
       .preview {
       }
@@ -942,6 +948,12 @@ footer.sticky-bottom {
 
     li.dataset-item {
       margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--global-divider-color, #e0e0e0);
+
+      &:last-child {
+        border-bottom: none;
+      }
 
       .title {
         font-weight: bolder;

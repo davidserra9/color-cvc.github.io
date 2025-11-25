@@ -10,7 +10,7 @@ nav_order: 4
 <!-- pages/datasets.md -->
 <div class="datasets">
   <ol class="dataset-list">
-  {% assign sorted_datasets = site.datasets | sort: "importance" %}
+  {% assign sorted_datasets = site.datasets | sort: "date" | reverse %}
   {% for dataset in sorted_datasets %}
     <li class="dataset-item">
       <div class="row">
