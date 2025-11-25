@@ -17,13 +17,19 @@ date: 2025-11-25
 <!-- Authors and Institutions -->
 <div class="authors">
   <div class="author-block">
-    <strong>Author Name 1</strong><sup>1</sup>,
-    <strong>Author Name 2</strong><sup>1</sup>,
-    <strong>Author Name 3</strong><sup>2</sup>
+    <strong>Maria Pilligua</strong><sup>1,2</sup>,
+    <strong>David Serrano-Lozano</strong><sup>1,2</sup>,
+    <strong>Pai Peng</strong><sup>3</sup>
+    <strong>Ramon Baldrich</strong><sup>1,2</sup>
+    <strong>Michael S. Brown</strong><sup>4</sup>
+    <strong>Javier Vazquez-Corral</strong><sup>1,2</sup>
+
   </div>
   <div class="affiliations">
-    <sup>1</sup>Computer Vision Center, Universitat Autònoma de Barcelona<br>
-    <sup>2</sup>Institution Name
+    <sup>1</sup>Computer Vision Center<br>
+    <sup>2</sup>Universitat Autònoma de Barcelona<br>
+    <sup>3</sup>University of Wisconsin-Madison<br>
+    <sup>4</sup>York University
   </div>
 </div>
 
@@ -31,15 +37,6 @@ date: 2025-11-25
 <div class="links" style="text-align: center; margin: 2rem 0;">
   <a href="https://arxiv.org/abs/2511.15496" class="btn btn-sm z-depth-0" role="button" target="_blank">
     <i class="fa-solid fa-file-pdf"></i> Paper
-  </a>
-  <a href="#" class="btn btn-sm z-depth-0" role="button">
-    <i class="fa-brands fa-github"></i> Code
-  </a>
-  <a href="#" class="btn btn-sm z-depth-0" role="button">
-    <i class="fa-solid fa-database"></i> Dataset
-  </a>
-  <a href="#citation" class="btn btn-sm z-depth-0" role="button">
-    <i class="fa-solid fa-quote-left"></i> Citation
   </a>
 </div>
 
@@ -61,6 +58,14 @@ date: 2025-11-25
   </div>
 </div>
 
+<!-- Dataset Overview (Optional) -->
+<div class="method" style="margin-top: 3rem;">
+  <h2>MILL Dataset</h2>
+  <p>
+    
+  </p>
+</div>
+
 <!-- Abstract -->
 <div class="abstract" style="margin-top: 3rem;">
   <h2>Abstract</h2>
@@ -68,7 +73,7 @@ date: 2025-11-25
     [Add your paper abstract here from the arXiv paper]
   </p>
   <p>
-    This paper addresses the challenge of [fill in key contribution]. We propose [fill in method name], which [describe approach]. Our experiments demonstrate [key results].
+    Imaging in low-light environments is challenging due to reduced scene radiance, which leads to elevated sensor noise and reduced color saturation. Most learning-based low-light enhancement methods rely on paired training data captured under a single low-light condition and a well-lit reference. The lack of radiance diversity limits our understanding of how enhancement techniques perform across varying illumination intensities. We introduce the Multi-Illumination Low-Light (MILL) dataset, containing images captured at diverse light intensities under controlled conditions with fixed camera settings and precise illuminance measurements. MILL enables comprehensive evaluation of enhancement algorithms across variable lighting conditions. We benchmark several state-of-the-art methods and reveal significant performance variations across intensity levels. Leveraging the unique multi-illumination structure of our dataset, we propose improvements that enhance robustness across diverse illumination scenarios. Our modifications achieve up to 10 dB PSNR improvement for DSLR and 2 dB for the smartphone on Full HD images.
   </p>
 </div>
 
