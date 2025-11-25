@@ -119,7 +119,7 @@ date: 2025-11-25
 
 <script>
 // Carousel configuration
-const sceneNumbers = [1, 12]; // Add more scene numbers as needed
+const sceneNumbers = [1, 12, 3, 4]; // Add more scene numbers as needed
 const totalLevels = 11; // Levels 1-11
 let currentSceneIndex = 0;
 let currentLevel = 1;
