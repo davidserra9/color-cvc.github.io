@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MILL
-description: Multi-Illumination Low-Light Dataset for Evaluating Low-Light Image Enhancement Across Multiple Intensity Levels
+description: Evaluating Low-Light Image Enhancement Across Multiple Intensity Levels, 2025
 img: assets/img/mill/teaser.jpg
 importance: 1
 category: work
