@@ -79,12 +79,12 @@
         {%- endif -%}
 
         {%- if author_is_self -%}
-          <em>
+          <span style="white-space: nowrap;"><em>
             {{- author.first }}
             {{ author_last_html -}}
-          </em>
+          </em></span>
         {%- elsif author_is_team_member -%}
-          <strong>
+          <span style="white-space: nowrap;"><strong>
             {%- if coauthor_url -%}
               <a href="{{ coauthor_url }}">
                 {{- author.first }}
@@ -94,8 +94,9 @@
               {{- author.first }}
               {{ author_last_html -}}
             {%- endif -%}
-          </strong>
+          </strong></span>
         {%- else -%}
+          <span style="white-space: nowrap;">
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
               {{- author.first }}
@@ -105,6 +106,7 @@
             {{- author.first }}
             {{ author_last_html -}}
           {% endif %}
+          </span>
         {%- endif -%}
         {%- if forloop.last == false -%}
           {%- assign next_index = forloop.index | plus: 1 -%}
