@@ -149,17 +149,6 @@ document.getElementById('level-slider').addEventListener('input', (e) => {
 updateImage();
 </script>
 
-<!-- Abstract -->
-<div class="abstract" style="margin-top: 3rem;">
-  <h2>Abstract</h2>
-  <p>
-    [Add your paper abstract here from the arXiv paper]
-  </p>
-  <p>
-    Imaging in low-light environments is challenging due to reduced scene radiance, which leads to elevated sensor noise and reduced color saturation. Most learning-based low-light enhancement methods rely on paired training data captured under a single low-light condition and a well-lit reference. The lack of radiance diversity limits our understanding of how enhancement techniques perform across varying illumination intensities. We introduce the Multi-Illumination Low-Light (MILL) dataset, containing images captured at diverse light intensities under controlled conditions with fixed camera settings and precise illuminance measurements. MILL enables comprehensive evaluation of enhancement algorithms across variable lighting conditions. We benchmark several state-of-the-art methods and reveal significant performance variations across intensity levels. Leveraging the unique multi-illumination structure of our dataset, we propose improvements that enhance robustness across diverse illumination scenarios. Our modifications achieve up to 10 dB PSNR improvement for DSLR and 2 dB for the smartphone on Full HD images.
-  </p>
-</div>
-
 <!-- Method Overview -->
 <div class="method" style="margin-top: 3rem;">
   <h2>Method Overview</h2>
@@ -194,7 +183,17 @@ updateImage();
 <div class="results" style="margin-top: 3rem;">
   <h2>Results</h2>
   <p>
-    [Optional: Add key results, comparison tables, qualitative results, etc.]
+    We benchmark mainstream LLIE methods by retraining them on our MILL-s dataset using their officially released code. For further analysis and details, please check the paper.
+    <div class="teaser">
+      <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+          {% include figure.liquid loading="eager" path="assets/img/mill/benchmark_results.png" title="MILL benchmark" class="img-fluid rounded z-depth-1" %}
+        </div>
+      </div>
+      <div class="caption" style="margin-top: 1rem;">
+      MILL-s benchmark.
+      </div>
+    </div>
   </p>
 </div>
 
