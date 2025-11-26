@@ -17,7 +17,7 @@ The Color Group at the <a href='https://www.cvc.uab.es/'>Computer Vision Center 
 
 Over the last 10 years, the Color Group at CVC has published more than 60 papers in relevant international journals and conferences. Regularly the group publishes in top-tier computer vision conferences such as CVPR, ICCV, ECCV, as well as specialized venues like SIGGRAPH, CIC, and 3DV. We actively collaborate with researchers from both academia and industry worldwide, developing projects sponsored by both public and private funds.
 
-Faculty and students in the Color Group are affiliated with the <a href='https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html'>Universitat Autònoma de Barcelona,</a> within the Department of Computer Science.
+Faculty and students in the Color Group are affiliated with the <a href='https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html'>Universitat Autònoma de Barcelona</a>, within the Department of Computer Science.
 
 ### Why Work in Color?
 
