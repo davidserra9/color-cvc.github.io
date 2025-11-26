@@ -160,11 +160,33 @@ updateImage();
   </p>
 </div>
 
-<!-- Method Overview (Optional) -->
+<!-- Method Overview -->
 <div class="method" style="margin-top: 3rem;">
   <h2>Method Overview</h2>
   <p>
-    [Optional: Add description of your method, additional figures, etc.]
+    Leveraging the unique multi-illumination structure of our dataset, we introduce two auxiliary loss terms to improve existing low-light image enhancement (LLIE) methods. Our approach explicitly disentangles the latent features into illumination-related and scene-related components, enabling models to better generalize across different brightness conditions.
+  </p>
+
+  <h3 style="font-size: 1.1rem; margin-top: 1.5rem;">Key Components</h3>
+
+  <p>
+    <strong>1. Intensity Prediction Loss (ℒ<sub>i</sub>):</strong> We constrain the first latent feature channel to predict the normalized intensity value of the input scene. This loss minimizes the L1 distance between the predicted intensity at each spatial location and the known scene illumination level, ensuring that illumination information is explicitly encoded in the latent representation.
+  </p>
+
+  <p>
+    <strong>2. Scene Content Loss (ℒ<sub>s</sub>):</strong> Using a triplet loss formulation, we encourage the remaining latent channels to encode scene content that is independent of lighting conditions. This loss pushes together representations of the same scene under different illumination levels, while separating representations of different scenes at the same brightness level.
+  </p>
+
+  <p>
+    <strong>3. Combined Objective:</strong> The complete loss function combines these components with a reconstruction loss (ℒ<sub>re</sub>):
+  </p>
+
+  <p style="text-align: center; font-style: italic; margin: 1rem 0;">
+    ℒ = ℒ<sub>re</sub> + ℒ<sub>i</sub> + ℒ<sub>s</sub>
+  </p>
+
+  <p>
+    We adopt Retinexformer as our baseline architecture due to its strong performance in our benchmark evaluation. By explicitly disentangling illumination and scene content in the latent space, our method achieves up to <strong>10 dB PSNR improvement for DSLR</strong> and <strong>2 dB for smartphone</strong> images compared to the baseline.
   </p>
 </div>
 
