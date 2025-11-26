@@ -14,7 +14,7 @@ announcements:
 ---
 The Color Group at the [Computer Vision Center (CVC)](https://www.cvc.uab.es/) conducts research at the intersection of computer vision, computational imaging, and visual perception. Our work explores the foundations of color science while addressing practical challenges in image enhancement, relighting, restoration, and scene understanding.
 
-Over the past decade, the Color Group has published more than 60 papers in leading international journals and conferences. We regularly publish at top-tier computer vision venues such as CVPR, ICCV, and ECCV, as well as specialized conferences including SIGGRAPH, CIC, and 3DV. We actively collaborate with researchers from academia and industry worldwide, developing projects sponsored by both public and private funding.
+Over the past decade, the Color Group has published more than 60 papers in leading international journals and conferences. We regularly publish at top-tier computer vision venues such as CVPR, ICCV, and ECCV, as well as specialized conferences including computer graphics, CIC, and 3DV. We actively collaborate with researchers from academia and industry worldwide, developing projects sponsored by both public and private funding.
 
 Faculty and students in the Color Group are affiliated with the [Universitat Autònoma de Barcelona](https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html), within the Department of Computer Science.
 
