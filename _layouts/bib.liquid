@@ -78,10 +78,6 @@
           {% endfor %}
         {%- endif -%}
 
-        {%- if forloop.length > 1 -%}
-          {% if forloop.first == false %},&nbsp;{% endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
-        {% endif %}
         {%- if author_is_self -%}
           <em>
             {{- author.first }}
@@ -109,6 +105,18 @@
             {{- author.first }}
             {{ author_last_html -}}
           {% endif %}
+        {%- endif -%}
+        {%- if forloop.last == false -%}
+          {%- assign next_index = forloop.index | plus: 1 -%}
+          {%- if next_index == author_array_limit -%}
+            {%- if forloop.length == 2 -%}
+              &nbsp;and&nbsp;
+            {%- else -%}
+              ,&nbsp;and&nbsp;
+            {%- endif -%}
+          {%- else -%}
+            ,&nbsp;
+          {%- endif -%}
         {%- endif -%}
       {% endfor %}
       {% if entry.annotation %}
